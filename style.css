@@ -1,0 +1,132 @@
+/*  Emelly Torres
+    Project 3: Tic Tac Toe
+    Problem 1: Two Player
+    Web Development */
+
+
+/* Import vintage fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Shrikhand&family=Righteous&display=swap');
+
+/* Apply styles to the entire page */
+body {
+    background-color: #A8B58A;
+    margin-top: 10%;
+    text-align: center;
+}
+
+/* Layout for game information and game board */
+.game-layout {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* Left information panel */
+.game-info {
+    border: 2px solid #66714b;
+    border-radius: 30px;
+    height: 620px;
+    width: 425px;
+}
+
+/* Main title: Tic Tac Toe */
+.game-info h1 {
+    color: #66714b;
+    font-family: 'Shrikhand', Georgia, serif;
+    font-size: 54px;
+    font-weight: normal;
+    letter-spacing: 0;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    width: auto;
+}
+
+/* Subtitle: Player vs Player */
+.game-info h2 {
+    color: #d4dfb9;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    margin-top: -5px;
+    text-transform: lowercase;
+}
+
+
+/* Bottom signature: Intro to Web Dev */
+.game-info h3 {
+    color: #d7ddc7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500px;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    text-transform: lowercase;
+}
+
+/* Text within game information */
+.game-info div {
+    color: #d4dfb9;
+}
+
+/* Decorative flower artwork */
+.game-info pre {
+    color: #353b28;
+    font-family: monospace;
+    font-size: 7px;
+    line-height: 1;
+    left: -35px;
+    margin: 5px auto;
+    margin-bottom: -4%;
+    margin-top: 4%;
+    position: relative;
+    width: fit-content;
+}
+
+/* Game board container */
+.game-canvas {
+    align-items: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style the game canvas */
+canvas {
+    background: #d4dfb9;
+    border: 5px solid #A8B58A;
+    border-radius: 20px;
+}
+
+/* Game status message */
+#status {
+    color: #dedec4;
+    font-family: 'Righteous', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-top: -10px;
+    padding: 5%;
+    text-transform: uppercase;
+}
+
+/* Reset Game button */
+button {
+    background-color: #d7997c;
+    border-radius: 40px;
+    color: #eae2cc;
+    font-family: 'Righteous', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Reset button hover effect */
+button:hover {
+    color: #eae2cc;
+    background-color: #a34a4a;
+}
