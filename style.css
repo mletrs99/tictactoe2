@@ -130,3 +130,31 @@ button:hover {
     color: #eae2cc;
     background-color: #a34a4a;
 }
+
+@media (max-width: 1000px) {
+    .game-layout {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .game-info {
+        height: 250px;
+        width: 475px;
+    }
+
+    .game-info h1, h3 {
+        font-size: 40px;
+    }
+
+    .game-info h2 {
+        font-size: 16px;
+    }
+
+    .game-info button {
+        font-size: 18px;
+    }
+
+    pre {
+        display: none;
+    }
+}
